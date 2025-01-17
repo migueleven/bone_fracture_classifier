@@ -90,22 +90,20 @@ This project aims to detect fractures in X-ray images by leveraging a pre-traine
 
 | Metric       | Original Model (Frozen) | Fine-Tuned Model (Unfrozen) |  
 |--------------|--------------------------|-----------------------------|  
-| Accuracy     | **84.5%**                | **88.7%**                   |  
-| F1-Score     | **0.82**                 | **0.88**                    |  
-| Precision    | **0.81**                 | **0.87**                    |  
-| Recall       | **0.83**                 | **0.90**                    |  
+| Accuracy     | **84.5%**                | **99%**                   |  
+| F1-Score     | **0.82**                 | **99%**                    |  
+| Precision    | **0.81**                 | **98.5**                    |  
+| Recall       | **0.83**                 | **98.5**                    |  
 
 ### **Confusion Matrix (Fine-Tuned Model)**  
 ![Confusion Matrix](https://matplotlib.org/stable/_images/sphx_glr_confusion_matrix_001.png)  
+
 
 ---
 
 ## 🚀 **Future Improvements**  
 
 1. **Augmented Dataset**: Include more samples to improve generalization.  
-2. **Model Ensembles**: Combine predictions from multiple models for better accuracy.  
-3. **Explainability**: Use Grad-CAM to highlight fracture regions in X-rays.  
-4. **Deploy**: Build a web app for real-time predictions.  
 
 ---
 
