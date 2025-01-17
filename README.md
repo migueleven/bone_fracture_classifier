@@ -1,6 +1,4 @@
-# 🩻 **Fracture Detection in X-ray Images**  
-
-![Fracture Detection](https://upload.wikimedia.org/wikipedia/commons/3/3f/X-ray_of_a_healthy_human_foot.jpg)  
+#  **Fracture Detection in X-ray Images**  
 
 > A machine learning project to classify fractures in X-ray images using transfer learning and advanced fine-tuning techniques.
 
@@ -88,15 +86,16 @@ This project aims to detect fractures in X-ray images by leveraging a pre-traine
 
 ## 📈 **Results**  
 
-| Metric       | Original Model (Frozen) | Fine-Tuned Model (Unfrozen) |  
+| Metric       | Original Model (Frozen)  | Fine-Tuned Model (Unfrozen) |  
 |--------------|--------------------------|-----------------------------|  
-| Accuracy     | **84.5%**                | **99%**                   |  
-| F1-Score     | **0.82**                 | **99%**                    |  
-| Precision    | **0.81**                 | **98.5**                    |  
-| Recall       | **0.83**                 | **98.5**                    |  
+| Accuracy     | **0.80**                 | **0.99**                    |  
+| F1-Score     | **0.80**                 | **0.99**                    |  
+| Precision    | **0.80**                 | **0.985**                   |  
+| Recall       | **0.80**                 | **0.985**                   |  
 
 ### **Confusion Matrix (Fine-Tuned Model)**  
-![Confusion Matrix](https://matplotlib.org/stable/_images/sphx_glr_confusion_matrix_001.png)  
+ 
+![Captura de pantalla 2025-01-17 160816](https://github.com/user-attachments/assets/4b900ef3-1ed7-4aff-bf8c-8bf1ccc4538a)
 
 
 ---
